@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	color:#6ED1F3;
+}
+
+body{
+	/*background: #2F4F4F;*/
+	background-image: url(borrosa.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 658px; 
+}
+
+.Navegacion{
+	width: 1350px;
+	margin: 30px auto;
+	background: #fff;	
+}
+
+.Navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+display: block;
+padding: 20px 65px;
+color: #353535;
+font-family: 'Open Sans';
+text-decoration: none;
+text-align: center;
+}
+
+.menu li a:hover{
+color: #00CED1;
+transition: all .3s;
+}
+
+.Submenu{
+	position: absolute; 
+	background:#3333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	text-align: center;
+}
+
+.Submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family:  'Open Sans';
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu li:hover .Submenu{
+visibility:visible;
+opacity: 1;
+}
+
+#Todo, html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.Login{
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 17px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Ingresar{
+	padding: 5px;
+	margin-left:100px;
+	margin-top: 10px;
+}
+
+.Aceptar{
+    text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: white;
+	color: black;	
+	margin-left:190px;	
+}
+
+
